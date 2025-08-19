@@ -1,0 +1,110 @@
+[
+  {
+    "id": "L-001",
+    "name": "Ana Souza",
+    "company": "NovaTech",
+    "email": "ana@novatech.com",
+    "source": "web",
+    "score": 92,
+    "status": "new"
+  },
+  {
+    "id": "L-002",
+    "name": "Bruno Lima",
+    "company": "Alpha SA",
+    "email": "bruno@alpha.com",
+    "source": "referral",
+    "score": 76,
+    "status": "contacted"
+  },
+  {
+    "id": "L-003",
+    "name": "Clara Dias",
+    "company": "Beleza+",
+    "email": "clara@belezamais.com",
+    "source": "event",
+    "score": 84,
+    "status": "qualified"
+  },
+  {
+    "id": "L-004",
+    "name": "Diego Rocha",
+    "company": "Fluxo Ltda",
+    "email": "diego@fluxo.com",
+    "source": "web",
+    "score": 68,
+    "status": "unqualified"
+  },
+  {
+    "id": "L-005",
+    "name": "Elisa Moraes",
+    "company": "SkyData",
+    "email": "elisa@skydata.io",
+    "source": "web",
+    "score": 95,
+    "status": "new"
+  },
+  {
+    "id": "L-006",
+    "name": "Fabio Nunes",
+    "company": "GigaSoft",
+    "email": "fabio@gigasoft.dev",
+    "source": "event",
+    "score": 72,
+    "status": "contacted"
+  },
+  {
+    "id": "L-007",
+    "name": "Gabi Torres",
+    "company": "CasaVerde",
+    "email": "gabi@casaverde.com",
+    "source": "referral",
+    "score": 81,
+    "status": "qualified"
+  },
+  {
+    "id": "L-008",
+    "name": "Hugo Prado",
+    "company": "MoveFit",
+    "email": "hugo@movefit.app",
+    "source": "web",
+    "score": 60,
+    "status": "new"
+  },
+  {
+    "id": "L-009",
+    "name": "Iris Matos",
+    "company": "ClimaX",
+    "email": "iris@climax.ai",
+    "source": "web",
+    "score": 99,
+    "status": "new"
+  },
+  {
+    "id": "L-010",
+    "name": "João Mendes",
+    "company": "AgroPlus",
+    "email": "joao@agroplus.com",
+    "source": "event",
+    "score": 74,
+    "status": "contacted"
+  },
+  {
+    "id": "L-011",
+    "name": "Karen Reis",
+    "company": "BluePay",
+    "email": "karen@bluepay.io",
+    "source": "referral",
+    "score": 88,
+    "status": "qualified"
+  },
+  {
+    "id": "L-012",
+    "name": "Leo Braga",
+    "company": "Inspira",
+    "email": "leo@inspira.co",
+    "source": "web",
+    "score": 66,
+    "status": "unqualified"
+  }
+]
