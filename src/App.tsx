@@ -75,7 +75,9 @@ export const App = () => {
     <div className="min-h-dvh bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <div className="max-w-6xl mx-auto p-4 sm:p-6 space-y-6">
         <header className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-          <h1 className="text-2xl font-bold text-indigo-400">Mini Seller Console</h1>
+          <h1 className="text-2xl font-bold text-indigo-400">
+            Mini Seller Console
+          </h1>
           <button
             onClick={toggle}
             className="p-2 rounded-full border bg-white dark:bg-gray-800"
@@ -140,14 +142,22 @@ export const App = () => {
             {error}
           </div>
         )}
-        {!loading && !error && (
-          <LeadTable leads={leads} onRowClick={openDetail} />
-        )}
 
-        <section className="space-y-3">
-          <h2 className="text-lg font-semibold">Opportunities</h2>
-          <OpportunityTable opportunities={opportunities} />
-        </section>
+        {!loading && !error && (
+          <>
+            <section className="space-y-3">
+              <h2 className="text-lg font-semibold text-indigo-400">Leads</h2>
+              <LeadTable leads={leads} onRowClick={openDetail} />
+            </section>
+
+            <section className="space-y-3">
+              <h2 className="text-lg font-semibold text-indigo-400">
+                Opportunities
+              </h2>
+              <OpportunityTable opportunities={opportunities} />
+            </section>
+          </>
+        )}
       </div>
 
       <LeadDetailPanel
