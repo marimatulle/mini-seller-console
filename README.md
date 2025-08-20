@@ -99,7 +99,7 @@ The main application component. Responsibilities:
 
 ---
 
-### Running the project
+## Running the project
 
 To run the project on your local machine:
 
