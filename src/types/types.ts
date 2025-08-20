@@ -15,10 +15,12 @@ export interface Lead {
   status: LeadStatus;
 }
 
+export type OpportunityStage = "negotiation" | "proposal" | "won" | "lost";
+
 export interface Opportunity {
   id: string;
   name: string;
-  stage: "New" | "Qualified" | "Proposal" | "Won" | "Lost";
+  stage: OpportunityStage;
   amount?: number | null;
   accountName: string;
 }
