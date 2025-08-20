@@ -133,7 +133,7 @@ export const App = () => {
         </div>
 
         {loading && (
-          <div className="border rounded-xl p-6 bg-white text-sm text-gray-500">
+          <div className="border rounded-xl p-6 bg-white text-gray-500 dark:bg-gray-800 dark:text-gray-100 text-sm">
             Loading leads…
           </div>
         )}

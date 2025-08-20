@@ -39,6 +39,7 @@ export const getScoreColor = (score: number): string => {
 };
 
 export const stageColors: Record<string, string> = {
+  new: "text-cyan-400",
   negotiation: "text-yellow-500",
   proposal: "text-green-400",
   won: "text-green-600",
