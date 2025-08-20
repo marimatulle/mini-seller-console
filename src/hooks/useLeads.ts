@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import leadsData from "../data/leads.json";
-import { sleep } from "../utils";
-import type { Lead, Opportunity } from "../types";
+import { sleep } from "../utils/utils";
+import type { Lead, Opportunity } from "../types/types";
 
 export type SortKey = Extract<keyof Lead, "score" | "name" | "company">;
 export type SortDir = "asc" | "desc";
