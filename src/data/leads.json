@@ -106,5 +106,14 @@
     "source": "web",
     "score": 66,
     "status": "unqualified"
+  },
+  {
+    "id": "L-013",
+    "name": "Julia Kruger",
+    "company": "Tech Consult",
+    "email": "julia@techconsult.com",
+    "source": "web",
+    "score": 100,
+    "status": "converted"
   }
 ]

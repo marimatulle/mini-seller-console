@@ -1,0 +1,30 @@
+[
+  {
+    "id": "O-001",
+    "name": "Contrato com Beleza+",
+    "accountName": "Beleza+",
+    "stage": "proposal",
+    "amount": 50000
+  },
+  {
+    "id": "O-002",
+    "name": "Parceria CasaVerde",
+    "accountName": "CasaVerde",
+    "stage": "negotiation",
+    "amount": 32000
+  },
+  {
+    "id": "O-003",
+    "name": "Licenciamento BluePay",
+    "accountName": "BluePay",
+    "stage": "won",
+    "amount": 45000
+  },
+  {
+    "id": "O-004",
+    "name": "Projeto Inspira",
+    "accountName": "Inspira",
+    "stage": "lost",
+    "amount": 28000
+  }
+]
