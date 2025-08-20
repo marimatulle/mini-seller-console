@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { isValidEmail } from "../utils";
-import type { Lead, Opportunity } from "../types";
+import { isValidEmail } from "../utils/utils";
+import type { Lead, Opportunity } from "../types/types";
 
 interface Props {
   open: boolean;
