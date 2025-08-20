@@ -2,6 +2,8 @@
 
 Mini Seller Console is a React application for managing **leads** and **opportunities** with **dark mode support**, filters, sorting, and lead conversion.
 
+Access the website here: [https://mini-seller-console-project.vercel.app/](https://mini-seller-console-project.vercel.app/)
+
 ---
 
 ## Technologies
