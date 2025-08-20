@@ -87,7 +87,7 @@ export const useLeads = (initialFilters: Filters) => {
     const opp: Opportunity = {
       id: `OPP-${lead.id}`,
       name: lead.name,
-      stage: "New",
+      stage: "new",
       amount: amount ?? null,
       accountName: lead.company,
     };
